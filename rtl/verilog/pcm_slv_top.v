@@ -38,16 +38,19 @@
 
 //  CVS Log
 //
-//  $Id: pcm_slv_top.v,v 1.1.1.1 2002-09-17 15:17:25 rudi Exp $
+//  $Id: pcm_slv_top.v,v 1.2 2002-09-17 15:32:50 rudi Exp $
 //
-//  $Date: 2002-09-17 15:17:25 $
-//  $Revision: 1.1.1.1 $
+//  $Date: 2002-09-17 15:32:50 $
+//  $Revision: 1.2 $
 //  $Author: rudi $
 //  $Locker:  $
 //  $State: Exp $
 //
 // Change History:
 //               $Log: not supported by cvs2svn $
+//               Revision 1.1.1.1  2002/09/17 15:17:25  rudi
+//               Initial Checkin
+//
 //
 //
 //
@@ -66,7 +69,6 @@ PCM_SYNC
 PCM_DIN
 PCM_DOUT
 */
-
 
 module pcm_slv_top(	clk, rst,
 	
